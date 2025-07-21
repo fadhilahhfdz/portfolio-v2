@@ -1,4 +1,4 @@
-import logo from "../assets/icon.png";
+import logo from "../assets/img/icon.png";
 import {
   ArrowDownToLine,
   ArrowRight,
@@ -88,7 +88,7 @@ export const Home = () => {
             animate={{ x: 0, opacity: 1 }}
             transition={{ delay: 1, duration: 0.5 }}
           >
-            <div className="flex flex-row items-center gap-1.5 bg-violet-800 px-4 py-2 rounded-full text-white">
+            <div className="flex flex-row items-center gap-1.5 border-2 border-violet-600 px-4 py-2 rounded-full text-violet-600">
               <p>Download CV</p>
               <ArrowDownToLine size={18} />
             </div>
@@ -105,7 +105,7 @@ export const Home = () => {
                 initial={{ opacity: 0, y: 30 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{
-                  delay: 1.2 + index * 0.2, // muncul satu per satu
+                  delay: 1.2 + index * 0.2,
                   duration: 0.5,
                 }}
               >
@@ -115,7 +115,7 @@ export const Home = () => {
                   rel="noopener noreferrer"
                   className="text-violet-500"
                 >
-                  <li className="p-4 bg-black rounded-full border-2 border-violet-800">
+                  <li className="p-4 rounded-full border-2 border-violet-800">
                     {item.logo}
                   </li>
                 </a>
