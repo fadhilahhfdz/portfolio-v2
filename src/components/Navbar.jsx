@@ -20,8 +20,7 @@ export const Navbar = () => {
   const itemMenu = [
     { label: "Home", href: "#home" },
     { label: "About", href: "#about" },
-    { label: "Tech Stack", href: "#tech-stack" },
-    { label: "Projects", href: "#projects" },
+    { label: "Showcase", href: "#showcase" },
     { label: "Contact", href: "#contact" },
   ];
 
@@ -36,7 +35,7 @@ export const Navbar = () => {
     >
       <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
         <h1 className="text-xl font-bold cursor-default bg-gradient-to-r from-purple-800 to-violet-700 bg-clip-text text-transparent">
-          Fadhilah.dev
+          FadhilahHfdz
         </h1>
 
         {/* mobile menu icon */}

@@ -68,7 +68,7 @@ export const Home = () => {
         {/* tombol kontak & cv */}
         <div className="flex justify-center items-center gap-4 mt-5">
           <motion.a
-            href="https://wa.me/6281234982153"
+            href="https://t.me/fadhilahhdz"
             className="glow-button rounded-full"
             rel="noopener noreferrer"
             initial={{ opacity: 0, x: -100 }}
@@ -81,7 +81,7 @@ export const Home = () => {
             </div>
           </motion.a>
           <motion.a
-            href="https://wa.me/6281234982153"
+            href="#"
             className="glow-button rounded-full"
             rel="noopener noreferrer"
             initial={{ opacity: 0, x: 100 }}
