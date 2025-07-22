@@ -29,7 +29,7 @@ export const Navbar = () => {
       initial={{ y: -100, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.7, ease: "easeOut" }}
-      className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${
+      className={`fixed top-0 left-0 w-screen z-50 transition-all duration-300 ${
         scrolled ? "bg-black/10 backdrop-blur-md shadow-md" : "bg-transparent"
       }`}
     >
