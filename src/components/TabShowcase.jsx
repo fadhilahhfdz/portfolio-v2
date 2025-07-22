@@ -81,7 +81,7 @@ export default function TabShowcase() {
             }`}
             onClick={() => setActiveTab("tech")}
           >
-            <CodeXml className="w-4 h-4" />
+            <CodeXml className="md:w-4 md:h-4" />
             Tech Stack
           </button>
 
@@ -93,7 +93,7 @@ export default function TabShowcase() {
             }`}
             onClick={() => setActiveTab("projects")}
           >
-            <FolderCode className="w-4 h-4" />
+            <FolderCode className="md:w-4 md:h-4" />
             Last Projects
           </button>
         </div>
@@ -101,12 +101,12 @@ export default function TabShowcase() {
 
       {/* Tab Content */}
       {activeTab === "tech" && (
-        <div className="w-full flex flex-wrap justify-center gap-8">
+        <div className="w-full flex flex-wrap justify-center gap-4 md:gap-8">
           {techStack.map((tech, index) => (
             <div key={index} data-aos="fade-up" data-aos-delay={index * 200}>
-              <div className="p-4 py-6 w-40 h-40 bg-white/5 backdrop-blur-md flex flex-col gap-2 justify-between items-center rounded-lg hover:bg-white/10 hover:scale-110 transition duration-300">
-                <img src={tech.icon} alt="html" width={70} />
-                <p className="mt-2 font-medium">{tech.nama}</p>
+              <div className="p-4 py-6 w-32 h-32 md:w-40 md:h-40 bg-white/5 backdrop-blur-md flex flex-col gap-2 justify-between items-center rounded-lg hover:bg-white/10 hover:scale-110 transition duration-300">
+                <img src={tech.icon} alt="html" width={70} className="w-12 md:w-[4.2rem]" />
+                <p className="mt-2 font-medium text-sm md:text-lg">{tech.nama}</p>
               </div>
             </div>
           ))}
@@ -117,7 +117,7 @@ export default function TabShowcase() {
         <div className="w-full flex flex-wrap justify-center gap-6">
           {projects.map((proj, index) => (
             <div key={index} data-aos="fade-up" data-aos-delay={index * 200}>
-              <div className="p-5 w-96 bg-white/5 backdrop-blur-md rounded-xl hover:shadow-lg hover:shadow-violet-800/50 hover:scale-105 transition duration-300">
+              <div className="p-5 w-80 md:w-96 bg-white/5 backdrop-blur-md rounded-xl hover:shadow-lg hover:shadow-violet-800/50 hover:scale-105 transition duration-300">
                 <img
                   src={proj.foto}
                   alt={proj.nama}

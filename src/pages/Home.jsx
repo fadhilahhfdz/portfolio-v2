@@ -44,7 +44,7 @@ export const Home = () => {
 
         {/* nama */}
         <motion.h3
-          className="text-3xl font-bold mt-4 text-gradient"
+          className="text-2xl md:text-3xl text-center md:text-left font-bold mt-8 md:mt-4 text-gradient"
           initial={{ opacity: 0, y: -50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.4, duration: 0.8 }}
@@ -54,7 +54,7 @@ export const Home = () => {
 
         {/* deskripsi */}
         <motion.p
-          className="text-white max-w-2xl text-center mt-3 text-xl font-semibold"
+          className="text-white max-w-2xl md:text-center mt-3 text-lg md:text-xl text-justify font-semibold"
           initial={{ opacity: 0, y: -50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.6, duration: 0.8 }}
@@ -75,7 +75,7 @@ export const Home = () => {
             animate={{ x: 0, opacity: 1 }}
             transition={{ delay: 1, duration: 0.5 }}
           >
-            <div className="flex flex-row items-center gap-1.5 bg-gradient-to-r from-violet-800 via-purple-800 to-fuchsia-800 px-4 py-2 rounded-full text-white">
+            <div className="flex flex-row items-center gap-1.5 bg-gradient-to-r from-violet-800 via-purple-800 to-fuchsia-800 px-4 py-2 rounded-full text-white text-sm md:text-lg">
               <p>Contact Me</p>
               <ArrowRight size={18} />
             </div>
@@ -88,7 +88,7 @@ export const Home = () => {
             animate={{ x: 0, opacity: 1 }}
             transition={{ delay: 1, duration: 0.5 }}
           >
-            <div className="flex flex-row items-center gap-1.5 border-2 border-violet-600 px-4 py-2 rounded-full text-violet-600">
+            <div className="flex flex-row items-center gap-1.5 border-2 border-violet-600 px-4 py-2 rounded-full text-violet-600 text-sm md:text-lg">
               <p>Download CV</p>
               <ArrowDownToLine size={18} />
             </div>

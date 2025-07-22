@@ -22,8 +22,8 @@ const About = () => {
         </h2>
       </div>
 
-      <div className="max-w-7xl mx-auto p-6 flex flex-row flex-wrap-reverse justify-between items-center mt-6">
-        <div className="max-w-xl">
+      <div className="max-w-7xl mx-auto p-6 flex flex-row flex-wrap-reverse justify-between items-center mt-2">
+        <div className="max-w-xl mt-8 md:mt-0">
           {/* nama */}
           <div>
             <h2 className="text-white text-3xl font-bold" data-aos="fade-right">Hello, I&apos;m</h2>
@@ -51,12 +51,12 @@ const About = () => {
         </div>
 
         {/* profil */}
-        <div>
+        <div className="w-full flex justify-center md:w-fit md:flex-none">
           <img
             src={profil}
             alt="profil"
             width={300}
-            className="rounded-full shadow-[0_0_100px_4px] shadow-violet-800"
+            className="rounded-full shadow-[0_0_100px_4px] shadow-violet-800 w-56 md:w-80"
             data-aos="fade-left" data-aos-delay="200"
           />
         </div>

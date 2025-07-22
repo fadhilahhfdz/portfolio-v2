@@ -63,7 +63,7 @@ export const Contact = () => {
           {listSosmed.map((item, index) => (
             <div key={index} data-aos="fade-right" data-aos-delay={index * 200}>
               <a href={item.url} target="_blank">
-                <div className="p-4 px-8 bg-white/5 backdrop-blur-md rounded-lg flex items-center hover:-translate-y-1 hover:scale-105 transition duration-300">
+                <div className="p-4 px-8 w-[19rem] md:w-[28rem] bg-white/5 backdrop-blur-md rounded-lg flex items-center hover:-translate-y-1 hover:scale-105 transition duration-300">
                   <div className="flex items-center gap-4 w-96">
                     <p className="p-4 border-2 border-violet-800 text-violet-800 rounded-full">
                       {item.logo}
@@ -84,7 +84,7 @@ export const Contact = () => {
 
         {/* send me message */}
         <div
-          className="px-8 py-10 bg-white/5 backdrop-blur-md rounded-lg"
+          className="px-8 py-10 w-100 md:w-[28rem] bg-white/5 backdrop-blur-md rounded-lg"
           data-aos="fade-left"
           data-aos-delay="400"
         >
@@ -96,17 +96,17 @@ export const Contact = () => {
               type="text"
               name="nama"
               placeholder="Your Name"
-              className="py-2 px-4 bg-white/5 backdrop-blur-md rounded-lg w-96 text-white"
+              className="py-2 px-4 w-full bg-white/5 backdrop-blur-md rounded-lg text-white"
             />
             <input
               type="email"
               name="email"
               placeholder="Your Email"
-              className="py-2 px-4 bg-white/5 backdrop-blur-md rounded-lg w-96 text-white"
+              className="py-2 px-4 w-full bg-white/5 backdrop-blur-md rounded-lg text-white"
             />
             <textarea
               name="message"
-              className="py-2 h-28 px-4 bg-white/5 backdrop-blur-md rounded-lg w-96 text-white"
+              className="py-2 h-28 px-4 w-full bg-white/5 backdrop-blur-md rounded-lg text-white"
               placeholder="Message type here..."
             ></textarea>
             <button
