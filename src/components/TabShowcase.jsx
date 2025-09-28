@@ -15,6 +15,7 @@ import nodejs from "../assets/img/nodejs.png";
 import portov2 from "../assets/img/portov2.jpg";
 import kemiripan from "../assets/img/cekkemiripan.jpg";
 import simple from "../assets/img/simple.jpg";
+import nextjs from "../assets/img/nextjs.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
@@ -27,8 +28,8 @@ const techStack = [
   { nama: "Node JS", icon: nodejs },
   { nama: "Express", icon: express },
   { nama: "ReactJS", icon: react },
+  { nama: "NextJS", icon: nextjs },
   { nama: "Tailwind CSS", icon: tailwind },
-  { nama: "Bootstrap", icon: bootstrap },
   { nama: "MySQL", icon: mysql },
   { nama: "GIT", icon: git },
   { nama: "VsCode", icon: vscode },

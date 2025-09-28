@@ -6,7 +6,7 @@ import { Showcase } from "./pages/Showcase";
 
 function App() {
   return (
-    <>
+    <div className="overflow-x-hidden">
       {/* navbar */}
       <Navbar />
 
@@ -26,7 +26,7 @@ function App() {
       <footer className="bg-gradient-to-l from-gray-900 to-gray-950 p-6 text-gray-300 text-sm text-center">
         <p>&copy; 2025 FadhilahHfdz. All Rights Reserved.</p>
       </footer>
-    </>
+    </div>
   );
 }
 
