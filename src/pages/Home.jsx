@@ -61,7 +61,7 @@ export const Home = () => {
         >
           <span className="text-violet-600">2 years</span> of experience in Full
           Stack Web Developer, using{" "}
-          <span className="text-violet-600">Laravel, React, and Express</span>{" "}
+          <span className="text-violet-600">Laravel, NextJS, React, and Express</span>{" "}
           for developing a website.
         </motion.p>
 

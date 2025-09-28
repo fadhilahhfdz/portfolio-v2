@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { ArrowRight, CodeXml, FolderCode } from "lucide-react";
-import bootstrap from "../assets/img/bootstrap.png";
+// import bootstrap from "../assets/img/bootstrap.png";
 import css from "../assets/img/css-3.png";
 import express from "../assets/img/express.png";
 import git from "../assets/img/git.png";
