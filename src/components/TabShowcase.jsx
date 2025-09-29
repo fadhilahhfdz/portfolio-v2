@@ -46,7 +46,7 @@ const projects = [
     nama: "Sistem Cek Kemiripan Judul",
     foto: kemiripan,
     deskripsi:
-      "Sistem berbasis website untuk mengecek kemiripan judul Tugas Akhir 7 Skripsi",
+      "Sistem berbasis website untuk mengecek kemiripan judul Tugas Akhir & Skripsi",
     link: "https://github.com/fadhilahhfdz/sistem-cekkemiripan-frontend",
   },
   {
