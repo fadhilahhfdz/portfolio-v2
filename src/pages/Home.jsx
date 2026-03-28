@@ -59,9 +59,9 @@ export const Home = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.6, duration: 0.8 }}
         >
-          <span className="text-violet-600">2 years</span> of experience in Full
+          <span className="text-violet-600">3 years</span> of experience in Full
           Stack Web Developer, using{" "}
-          <span className="text-violet-600">Laravel, NextJS, React, and Express</span>{" "}
+          <span className="text-violet-600">Laravel, NextJS, ReactJS, and ExpressJS</span>{" "}
           for developing a website.
         </motion.p>
 

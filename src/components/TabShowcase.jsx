@@ -16,6 +16,11 @@ import portov2 from "../assets/img/portov2.jpg";
 import kemiripan from "../assets/img/cekkemiripan.jpg";
 import simple from "../assets/img/simple.jpg";
 import nextjs from "../assets/img/nextjs.png";
+import postman from "../assets/img/postman.png";
+import pg from "../assets/img/postgree.png";
+import zakat from "../assets/img/zakat.jpg";
+import leadtrack from "../assets/img/leadtrack.jpg";
+import tirtabening from "../assets/img/tirtabening.jpg";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
@@ -31,16 +36,36 @@ const techStack = [
   { nama: "NextJS", icon: nextjs },
   { nama: "Tailwind CSS", icon: tailwind },
   { nama: "MySQL", icon: mysql },
+  { nama: "PostgreSQL", icon: pg },
   { nama: "GIT", icon: git },
+  { nama: "Postman", icon: postman},
   { nama: "VsCode", icon: vscode },
 ];
 
 const projects = [
   {
+    nama: "Manajemen Zakat Digital",
+    foto: zakat,
+    deskripsi: "Aplikasi manajemen pencatatan dan pendistribusian zakat di masjid Al-Huda",
+    link: "#",
+  },
+  {
+    nama: "Lead Track",
+    foto: leadtrack,
+    deskripsi: "Aplikasi manajemen lead dan follow up lead dengan mudah serta integrasi AI",
+    link: "#",
+  },
+  {
+    nama: "Tirta Bening",
+    foto: tirtabening,
+    deskripsi: "Aplikasi manajemen pencatatan tagihan air sumur bor secara otomatis",
+    link: "#",
+  },
+  {
     nama: "Portfolio Website V2",
     foto: portov2,
     deskripsi: "Portfolio pribadi versi ke 2 menggunakan ReactJS",
-    link: "https://github.com/fadhilahhfdz/portfolio-v2",
+    link: "https://portfolio.fadhilahdev.my.id",
   },
   {
     nama: "Sistem Cek Kemiripan Judul",

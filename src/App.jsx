@@ -5,6 +5,8 @@ import Home from "./pages/Home";
 import { Showcase } from "./pages/Showcase";
 
 function App() {
+  const currentYear = new Date().getFullYear();
+
   return (
     <div className="overflow-x-hidden">
       {/* navbar */}
@@ -24,7 +26,7 @@ function App() {
 
       <hr className="border border-gray-800"/>
       <footer className="bg-gradient-to-l from-gray-900 to-gray-950 p-6 text-gray-300 text-sm text-center">
-        <p>&copy; 2025 FadhilahHfdz. All Rights Reserved.</p>
+        <p>&copy; {currentYear} FadhilahHfdz. All Rights Reserved.</p>
       </footer>
     </div>
   );

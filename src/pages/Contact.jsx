@@ -110,7 +110,7 @@ export const Contact = () => {
               placeholder="Message type here..."
             ></textarea>
             <button
-              type="submit"
+              type="button"
               className="px-2 py-2.5 rounded-lg w-full flex justify-center items-center gap-2 text-gray-200 bg-gradient-to-r from-violet-950 via-purple-900 to-fuchsia-800 glow-button"
             >
               <p>Send</p>
